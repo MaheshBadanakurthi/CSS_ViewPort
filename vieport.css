@@ -1,0 +1,25 @@
+.style{
+    width:100%;
+    height:100%;
+    background-color: aqua;
+    font-style: italic;
+}
+@media screen and (min-width:200px) and (max-width:500px){
+    .style{
+        /* width:300px;
+        height:300px; */
+        background-color: black;
+        color:white;
+        font-size: small;
+    }
+}
+@media screen and (min-width:501px) and (max-width:700px){
+    .style{
+        /* width:700px;
+        height:300px; */
+        background-color: rgb(234, 13, 13);
+        color:rgb(19, 45, 241);
+        font-size: small;
+    }
+
+}
